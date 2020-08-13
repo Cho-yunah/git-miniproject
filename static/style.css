@@ -110,14 +110,102 @@ body {
   background-repeat: no-repeat;
 }
 
-.main-heading {
-  font-size: 4rem;
-  font-weight: 300;
+h2{
+  font-size:3.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:200;
+  color:white;
+  padding:20px 0;
 }
-
-.main p {
-  font-size: 1.5rem;
-<<<<<<< HEAD
+.main{
+  padding:0;
+  position: relative;
+  width:100%;
+  height:100vh;
+  overflow: hidden;
+}
+.main-container{
+  width: 100vw;
+  height: 100vh;
+}
+.main-container section{
+  width:100%;
+  position: absolute;
+}
+.be-better, .s90,.xc90{
+  background-size:cover;
+  width:100%;
+  height:100vh;
+  position: relative;
+}
+.be-better{
+  top:0;
+  left:0;
+  background-image: url(https://assets.volvocars.com/kr/~/media/row/korea/why-volvo/sup00164_1920.jpg?w=2048);
+}
+.s90{
+  top:0;
+  left:100%;
+  background-image: url(https://assets.volvocars.com/kr/~/media/row/korea/my21_pdp/s90/the-new-s90-homepage-hero.jpg?w=2048);
+}
+.xc90{
+  top:0;
+  left:200%;
+  background-image: url(https://assets.volvocars.com/kr/~/media/row/korea/my21_pdp/xc90/1-light-versionste254notalent.jpg?w=2048);
+}
+.content-box{
+  width:300px;
+  height:200px;
+  position: absolute;
+  padding:0 10px;
+}
+.be-better-content{
+  top:25%;
+  left:10%;
+}
+.s90-content{
+  top:25%;
+  right:10%;
+  text-align: right;
+}
+.xc90-content{
+  top:25%;
+  left:10%;
+}
+.be-better__short{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:200;
+  display: block;
+  font-size:1.6rem;
+  color:white;
+}
+.s90__short{
+  position: absolute;
+  top:0px;
+  right:10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:200;
+  color:white;
+  font-size:1.6rem;
+  display: block;
+}
+.section__more{
+  background-color: transparent;
+  margin:20px 0 0 0;
+  padding:10px 40px;
+  border:1px solid white;
+  color:white;
+  font-size:1.6rem;
+}
+.arrow-icon::after{
+  display: inline-block;
+  content: "";
+  width:10px;
+  height:10px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(../images/angle-right-solid.svg);
 }
 .footer-bg {
   background-color: #000;
@@ -245,6 +333,4 @@ footer *{
   width:10px;
   height:10px;
   margin-left:10px;
-=======
->>>>>>> e54d18ff01d816f04f5f951e0a44463e615299db
 }
