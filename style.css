@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.member-service {
+  list-style: none;
+}
+
+.service_link {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 12px;
+}
+
+.service_link a,
+.dealer_link a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.logo {}
+
+.dealer {
+  list-style: none;
+}
+
+.dealer_link {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 12px;
+}
